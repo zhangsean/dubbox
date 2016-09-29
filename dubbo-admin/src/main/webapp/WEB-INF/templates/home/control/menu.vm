@@ -36,7 +36,7 @@
 									<option value="zh_TW" #if($language == "zh_TW")selected="selected"#end>繁體中文</option>
 								</select>
 							</div>
-						</td> 
+						</td>
 						<td style="padding-left: 10px;"><img src="$rootContextPath.getURI("images/ico_user.png")" width="14" height="14" border="0" /></td>
 						<td>
 							#if($currentUser.name)$currentUser.name#else$currentUser.username#end, $i18n.get("welcome")

@@ -10,7 +10,7 @@
         <script type="text/javascript" src="$rootContextPath.getURI("js/box.js")"></script>
         #if($_method == "index")
             <script type="text/javascript" src="$rootContextPath.getURI("js/trcolor.js")"></script>
-        #end 
+        #end
         <script type="text/javascript" src="$rootContextPath.getURI("js/jquery-1.4.2.min.js")"></script>
         <script type="text/javascript" src="$rootContextPath.getURI("js/jquery.simplemodal-1.4.js")"></script>
     	<script type="text/javascript" src="$rootContextPath.getURI("js/dubbo.js")"></script>
